@@ -3,7 +3,7 @@
 <head>
   
   <meta charset="UTF-8">
-  <title>Hongwei</title>
+  <title>宏伟神教官网</title>
   <style type="text/css">
     body{
       background-image:url(./images/f.jpg);
@@ -13,12 +13,19 @@
     html{
       height:100%;
     }    
-    @keyframes shan{
-      from{opacity:0}
-      to{opacity:100}
+    @keyframes shan1{
+      0%{opacity:0}
+      50%{opacity:100}
+    }
+    @keyframes shan2{
+      50%{opacity:0}
+      100%{opacity:100}
     }
     h1{
-      animation:shan 3s infinite;
+      animation:shan1 3s infinite;
+    }
+    h{
+      animation:shan2 3s infinite;
     }
   </style>
     
@@ -26,6 +33,7 @@
 <body>
     
   <h1>HongWei</h1>
+  <p id="h">欢迎来到宏伟神教官方网站</p>
     
 </body>
 </html>

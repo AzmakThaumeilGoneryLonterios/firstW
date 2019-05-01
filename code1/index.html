@@ -12,20 +12,34 @@
     }
     html{
       height:100%;
+      width:100%;
     }    
-    @keyframes shan1{
+    @keyframes shanstart{
       0%{opacity:0}
+      25%{opacity:100}
+      50%{opacity:0}
+      75%{opacity:100}
+      100%{opacity:0}
+    }
+    @keyframes shanf{
+      0%{opacity:0}
+      50%{opacity:0}
       100%{opacity:100}
     }
-    h1,#hw{
-      animation:shan1 3s infinite;
+    h1,#hws{
+      animation:shanstart 5s;
     }
+    h2,#hw{
+      animation:shanf 10s;
+    }  
   </style>
     
 </head>
 <body>
     
   <h1>HongWei</h1>
+  <p id="hws">欢迎来到宏伟神教官方网站</p>
+  <h2>HongWei</h2>
   <p id="hw">欢迎来到宏伟神教官方网站</p>
     
 </body>

@@ -7,7 +7,8 @@
   <style type="text/css">
     body{
       background-image:url(./images/f.jpg);
-      background-size:100% 100%;
+      background-color:green;
+      background-size:150% 150%;
       height:100%;
     }
     html,body{
@@ -15,23 +16,26 @@
         width:100%;
     }    
     @keyframes shanstart{
-      0%{opacity:100,font-size:80px,padding-top:30%,padding-left:50%}
+      0%{opacity:100}
       25%{opacity:0}
       50%{opacity:100}
-      75%{opacity:0,font-size:80px,padding-top:30%,padding-left:50%}
-      100%{opacity:100,font-size:20px,padding-top:3%,padding-left:1%}
+      75%{opacity:0}
+      100%{opacity:100}
     }
-    h1,#hws{
+    p{
       animation:shanstart 10s;
+      font-size:30px;
+      padding-top:5%;
+      padding-left:5;
     }
-  <link rel="Stylesheet" type="text/css" href="css/page.css" />
+    <link rel="Stylesheet" type="text/css" href="css/page.css" />
  
   </style>
     
 </head>
 <body>
     
-  <h1>HongWei</h1>
+  <p id="hwt">HongWei</p>
   <p id="hws">欢迎来到宏伟神教官方网站</p>
     
 </body>

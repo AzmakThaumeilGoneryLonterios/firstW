@@ -9,20 +9,14 @@
       width:100%;
     }    
     @keyframes shanstart{
-      0%{opacity:0}
+      0%{opacity:0,font-size:80px,padding-top:30%,padding-left:50%}
       25%{opacity:100}
       50%{opacity:0}
       75%{opacity:100}
-      100%{opacity:0}
+      99%{opacity:0,font-size:80px,padding-top:30%,padding-left:50%}
+      100%{opacity:100,font-size:20px,padding-top:3%,padding-left:1%}
     }
-    @keyframes shanf{
-      0%{opacity:0}
-      50%{opacity:0}
-      100%{opacity:100}
+    h1,{
+      animation:shanstart 10s;
     }
-    h1,#hws{
-      animation:shanstart 5s;
-    }
-    //h2,#hw{
-      animation:shanf 10s;
-    }  
+

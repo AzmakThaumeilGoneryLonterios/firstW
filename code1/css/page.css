@@ -1,1 +1,28 @@
-
+ <style type="text/css">
+    body{
+      background-image:url(./images/f.jpg);
+      background-size:100% 100%;
+      height:100%;
+    }
+    html{
+      height:100%;
+      width:100%;
+    }    
+    @keyframes shanstart{
+      0%{opacity:0}
+      25%{opacity:100}
+      50%{opacity:0}
+      75%{opacity:100}
+      100%{opacity:0}
+    }
+    @keyframes shanf{
+      0%{opacity:0}
+      50%{opacity:0}
+      100%{opacity:100}
+    }
+    h1,#hws{
+      animation:shanstart 5s;
+    }
+    //h2,#hw{
+      animation:shanf 10s;
+    }  

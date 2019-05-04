@@ -9,3 +9,7 @@ p{
   font-size:25px;
   text-indent:40px
 }
+a:link {text-decoration:none;background-color:blue;} 
+a:visited {text-decoration:none;background-color:red;} 
+a:hover {text-decoration:underline;background-color:purple;} 
+a:active {text-decoration:underline;background-color:purple;} 

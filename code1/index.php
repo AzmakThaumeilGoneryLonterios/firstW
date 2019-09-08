@@ -6,3 +6,7 @@
 <body>
 </body>
 </html>
+
+<?php
+
+?>

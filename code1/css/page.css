@@ -1,5 +1,8 @@
 
 body{
     background-image: url(../img/background1.jpg);
-    background-size: 50px 50px;
+    background-size: 150px 150px;
+}
+#St{
+    font-size: 150px;
 }
